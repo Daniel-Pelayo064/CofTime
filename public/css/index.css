@@ -60,13 +60,22 @@ body {
 .main-div {
   min-width: 5em;
   max-width: 35em;
+  height: 12em;
   flex-grow: 1;
   margin: 1em 0 1em 4em;
   font-size: 1em;
   text-align: justify;
+  border: solid rgb(255, 203, 134);
+  background-color: rgb(0255, 213, 0144);
+  border-radius: 30%;
+}
+
+p {
+  padding: 1em;
 }
 
 .main-div-h1 {
+  padding-top: 1em;
   font-size: 1.5em;
   text-align: center;
 }
