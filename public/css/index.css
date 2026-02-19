@@ -61,7 +61,10 @@ body {
   min-width: 5em;
   max-width: 35em;
   flex-grow: 1;
-  margin: 1em 0 1em 0;
+  margin: 1em 0 1em 4em;
+  font-size: 1em;
+  text-align: justify;
+  border: solid red;
 }
 
 .main-div-h1 {
