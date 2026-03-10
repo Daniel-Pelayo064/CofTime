@@ -14,7 +14,7 @@ html {
 }
 
 .a {
-  color: #d9d9d9;
+  color: #dadada;
   transition: all 0.3s;
 }
 
@@ -27,7 +27,7 @@ html {
 .header {
   width: 100vw;
   height: fit-content;
-  background-color: #2d4ed1;
+  background-color: #7a93e0;
   margin-bottom: 2em;
 }
 
@@ -35,7 +35,7 @@ html {
   display: flex;
   width: 100vw;
   height: fit-content;
-  background-color: #2d4ed1;
+  background-color: #7a93e0;
   flex-wrap: nowrap;
 }
 
@@ -115,7 +115,7 @@ body {
   font-size: 1em;
   text-align: justify;
   border: solid #2d4ed1;
-  background-color: #4f6ff3;
+  background-color: #7a93e0;
   box-shadow: 0 1em 1.5em #0b2ab0;
   border-radius: 23%;
 }
@@ -134,9 +134,11 @@ p {
 }
 
 .footer {
+  display: flex;
   width: 100vw;
   height: 10em;
-  background-color: #2d4ed1;
+  background-color: #7a93e0;
+  flex-wrap: nowrap;
   margin-top: 2em;
 }
 
@@ -154,22 +156,39 @@ p {
 
 .contactUs {
   display: flex;
-  margin-left: 1em;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: nowrap;
+  width: 100%;
+  height: 100%;
+  margin-left: 2em;
+}
+
+.contact {
+  margin: 1em;
 }
 
 .ig {
   display: flex;
-  flex-wrap: nowrap;
+  width: 100%;
   align-items: center;
   transition: all 0.3s;
 }
 
-.igIcon {
-  width: 3em;
-  height: 3em;
+.i {
+  margin-right: 1em;
+  color: #180e00;
 }
 
-.igUrl {
-  margin-left: 1em;
-  text-decoration: none;
+.mail {
+  display: flex;
+  width: 100%;
+  align-items: center;
+}
+
+.wasa {
+  display: flex;
+  width: 100%;
+  align-items: center;
 }
