@@ -140,6 +140,14 @@ p {
   padding:20px;
 }
 
+.colabTitleContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3em;
+  width: 100vw;
+}
+
 .colabTitle {
   font-size: 2em;
 }
@@ -152,7 +160,7 @@ p {
 }
 
 .colabImg {
-  width:90%;
+  width:75%;
   height:auto;
   border-radius:6px;
 }
