@@ -103,8 +103,16 @@ body {
   width: 100vw;
 }
 
+.infoContainer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+
 .main-div {
-  min-width: 8em;
+  min-width: 10em;
   max-width: 35em;
   min-height: 16em;
   flex-grow: 1;
