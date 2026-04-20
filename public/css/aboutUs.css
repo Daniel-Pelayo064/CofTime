@@ -45,6 +45,11 @@ html {
   flex-wrap: nowrap;
 }
 
+.nav-ul {
+  display: flex;
+  flex-direction: column;
+}
+
 .product {
   margin-top: 1em;
 }
