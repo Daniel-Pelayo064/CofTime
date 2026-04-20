@@ -45,6 +45,10 @@ html {
   flex-wrap: nowrap;
 }
 
+.product {
+  margin-top: 1em;
+}
+
 .logo-container {
   min-width: 2em;
   max-width: 9em;
@@ -76,6 +80,15 @@ html {
 .nav-ul {
   justify-content: center;
   align-items: center;
+}
+
+.nav-ul {
+  display: flex;
+  flex-direction: column;
+}
+
+.product {
+  margin-top: 1em;
 }
 
 .li {
